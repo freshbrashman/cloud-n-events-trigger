@@ -1,0 +1,23 @@
+{
+  "name": "cloud-n-events-trigger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshbrashman/cloud-n-events-trigger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freshbrashman/cloud-n-events-trigger/issues"
+  },
+  "homepage": "https://github.com/freshbrashman/cloud-n-events-trigger#readme",
+  "dependencies": {
+    "aws-sdk": "^2.329.0",
+    "googleapis": "^34.0.0"
+  }
+}
