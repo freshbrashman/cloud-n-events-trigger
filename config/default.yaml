@@ -1,0 +1,12 @@
+config:
+  load-bq-tables:
+    targets:
+      - gs://yterui-function-test/$yyyy$mm$dd/$table/*.data.json.gz
+      - gs://yterui-function-test/$yyyy$mm$dd/$table/*.schema.json
+    variable:
+      - yyyy
+      - mm
+      - dd
+      - table
+    event-handlers:
+      - func01
