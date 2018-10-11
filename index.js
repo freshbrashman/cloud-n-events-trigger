@@ -28,9 +28,9 @@ async function onPutStorage(putStoragePath) {
     const projectId = await google.auth.getDefaultProjectId();
 
     console.log(projectId);
-    configRoot = new MyConfig.MyConfig();
 
-    configRoot.getDefaultProjectId
+    configRoot = new MyConfig();
+    configRoot.say();
 
 
 
